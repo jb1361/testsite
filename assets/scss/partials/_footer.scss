@@ -1,4 +1,4 @@
-footer#socket{
+footer#socket {
 
   border: none;
   &.container_wrap.socket_color{
@@ -7,8 +7,16 @@ footer#socket{
   .copyright{
     color: white;
   }
-  .social_bookmarks_youtube{
-    background: transparent;
+
+
+  .social_bookmarks a{
+    color: white;
+   
+  }
+  .av-social-link-pinterest a{
+    background-color: white !important;
+    color:  rgb(32,32,32);
+   // border-radius: 10px !important;
   }
 }
 

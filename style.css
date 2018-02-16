@@ -106,8 +106,11 @@ footer#socket {
     background-color: #202020; }
   footer#socket .copyright {
     color: white; }
-  footer#socket .social_bookmarks #top #wrap_all {
-    background: white; }
+  footer#socket .social_bookmarks a {
+    color: white; }
+  footer#socket .av-social-link-pinterest a {
+    background-color: white !important;
+    color: #202020; }
 
 body .wrap-all ._border a {
   border: 2px solid white; }
