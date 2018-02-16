@@ -1,0 +1,252 @@
+/*!
+Theme Name: Enfold Child
+template: enfold
+Description: Louisville Geek Child theme based on Enfold.
+Version: 1.0.0
+Author: Louisville Geek
+Author URI:  https://louisvillegeek.com
+Text Domain: lgef
+*/
+body p, body li {
+  color: #333333;
+  font-size: 18px; }
+
+body h1 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 36px;
+  color: #333333; }
+
+body h2 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #333333; }
+
+body h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px; }
+
+body h4 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 22px; }
+
+body a {
+  color: #333333; }
+
+body #main p, body #main li {
+  font-weight: 300;
+  color: #333333; }
+
+body #main h1 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 36px;
+  color: #333333; }
+
+body #main h2 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 30px;
+  color: #333333; }
+
+body #main h3 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 24px; }
+
+body #main h4 {
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 22px; }
+
+body #main a {
+  color: #333333; }
+
+body#top #header_main {
+  background-color: rgba(0, 0, 0, 0.4); }
+  body#top #header_main .logo {
+    top: 6px;
+    -webkit-transform: scale(0.8);
+            transform: scale(0.8); }
+  body#top #header_main .main_menu #avia-menu > li > a .avia-menu-text {
+    font-size: 12px;
+    color: white;
+    font-weight: 600; }
+  body#top #header_main .main_menu #avia-menu > li > a .avia-menu-fx {
+    background-color: #f26c4f;
+    width: 70%;
+    left: 15%;
+    bottom: 27px;
+    height: 4px;
+    display: inline-block; }
+  @media only screen and (max-width: 767px) {
+    body#top #header_main {
+      width: inherit;
+      background-color: rgba(0, 0, 0, 0.4);
+      position: absolute; } }
+
+body#top #header_main_alternate {
+  background-color: rgba(0, 0, 0, 0.6); }
+  body#top #header_main_alternate .main_menu #avia-menu > li > a .avia-menu-text {
+    font-size: 18px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 100; }
+  body#top #header_main_alternate .main_menu #avia-menu > li > a .avia-menu-fx {
+    background-color: white;
+    border-color: white;
+    bottom: 7px; }
+
+footer#socket {
+  border: none; }
+  footer#socket.container_wrap.socket_color {
+    background-color: #202020; }
+  footer#socket .copyright {
+    color: white; }
+  footer#socket .social_bookmarks #top #wrap_all {
+    background: white; }
+
+body .wrap-all ._border a {
+  border: 2px solid white; }
+
+.av-caption-over-center {
+  color: white; }
+
+body#top #wrap_all .columns_style {
+  background-color: black; }
+  body#top #wrap_all .columns_style > .container {
+    max-width: none;
+    padding: 0; }
+    body#top #wrap_all .columns_style > .container > .content {
+      padding: 2px 0; }
+  body#top #wrap_all .columns_style .flex_column_table {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 249px;
+    overflow: hidden; }
+  body#top #wrap_all .columns_style .av-flex-placeholder {
+    width: 2%; }
+  body#top #wrap_all .columns_style .flex_column {
+    display: inline-block;
+    transition: all ease .5s;
+    height: inherit;
+    background-size: cover !important;
+    margin-bottom: 0;
+    margin-left: 0;
+    width: auto;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1; }
+    body#top #wrap_all .columns_style .flex_column:hover {
+      -webkit-transform: scale(1.07);
+              transform: scale(1.07); }
+  body#top #wrap_all .columns_style .av_textblock_section {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: inherit; }
+    body#top #wrap_all .columns_style .av_textblock_section > .avia_textblock {
+      position: relative;
+      pointer-events: none; }
+  body#top #wrap_all .columns_style .avia-button-wrap {
+    height: 0px; }
+  body#top #wrap_all .columns_style .avia-button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 249px;
+    background-color: rgba(0, 0, 0, 0.4);
+    transition: all ease .3s; }
+    body#top #wrap_all .columns_style .avia-button:hover {
+      background-color: rgba(0, 0, 0, 0.1); }
+  @media only screen and (max-width: 767px) {
+    body#top #wrap_all .columns_style .container {
+      width: 100%; }
+    body#top #wrap_all .columns_style .av-flex-placeholder {
+      width: 100%;
+      height: 5%; }
+    body#top #wrap_all .columns_style .flex_column_table {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      height: 1500px;
+      width: 99%;
+      margin-left: 3px; }
+    body#top #wrap_all .columns_style .avia-button {
+      height: 1500px; }
+    body#top #wrap_all .columns_style .av_textblock_section {
+      height: 100%; } }
+  @media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    body#top #wrap_all .columns_style .av-flex-placeholder {
+      width: 20px; } }
+
+@media only screen and (-ms-high-contrast: active) and (max-width: 767px), only screen and (-ms-high-contrast: none) and (max-width: 767px) {
+  body#top #wrap_all .columns_style .av-flex-placeholder {
+    height: 20px; } }
+  @media screen and (min-width: 2048px) {
+    body#top #wrap_all .columns_style .flex_column_table {
+      height: 500px; }
+    body#top #wrap_all .columns_style .avia-button {
+      height: 500px; } }
+
+body#top #wrap_all .built_to_last > .container {
+  max-width: none;
+  padding: 0; }
+
+body#top #wrap_all .built_to_last .flex_column {
+  display: inline-block;
+  background-size: cover !important;
+  height: 333px; }
+
+body#top #wrap_all .built_to_last .avia-button-wrap {
+  padding-top: 10px; }
+
+body#top #wrap_all .built_to_last .avia-button {
+  box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.3);
+  height: 50px;
+  border-radius: 10px;
+  width: 25%;
+  font-size: 23px;
+  font-weight: 600;
+  padding: 13px; }
+
+@media screen and (min-width: 2048px) {
+  body#top #wrap_all .built_to_last .flex_column {
+    height: 665px; } }
+
+@media only screen and (max-width: 767px) {
+  body#top #wrap_all .built_to_last .flex_column {
+    margin-bottom: 0; }
+  body#top #wrap_all .built_to_last .container {
+    width: 100%; } }
+
+body #wrap_all .built_to_last_text {
+  text-align: center;
+  margin-top: 8%; }
+  body #wrap_all .built_to_last_text .avia-textblock p {
+    font-size: 40px; }
+
+body#top #wrap_all .built_to_last_desc {
+  text-align: center;
+  max-width: 60%;
+  margin-left: 20%; }
+
+/* ============================================
+Base Styles Below
+============================================ */
+
+/*# sourceMappingURL=style.css.map */
