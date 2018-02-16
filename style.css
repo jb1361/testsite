@@ -101,16 +101,22 @@ body#top #header_main_alternate {
     bottom: 7px; }
 
 footer#socket {
-  border: none; }
+  border: none;
+  /*
+  .av-social-link-pinterest a{
+    pointer-events: none;
+    background-color: white !important;
+    color:  rgb(32,32,32);
+   // border-radius: 10px !important;
+  }
+  */ }
   footer#socket.container_wrap.socket_color {
     background-color: #202020; }
   footer#socket .copyright {
     color: white; }
   footer#socket .social_bookmarks a {
-    color: white; }
-  footer#socket .av-social-link-pinterest a {
-    background-color: white !important;
-    color: #202020; }
+    color: white;
+    pointer-events: none; }
 
 body .wrap-all ._border a {
   border: 2px solid white; }
@@ -247,6 +253,12 @@ body#top #wrap_all .built_to_last_desc {
   text-align: center;
   max-width: 60%;
   margin-left: 20%; }
+
+body #wrap_all .header_background > .container {
+  padding-top: 0 !important; }
+
+body #wrap_all .header_background .flex_column {
+  height: 90px; }
 
 /* ============================================
 Base Styles Below

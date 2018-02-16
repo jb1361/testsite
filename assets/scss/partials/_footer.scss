@@ -11,13 +11,16 @@ footer#socket {
 
   .social_bookmarks a{
     color: white;
-   
+    pointer-events: none;
   }
+  /*
   .av-social-link-pinterest a{
+    pointer-events: none;
     background-color: white !important;
     color:  rgb(32,32,32);
    // border-radius: 10px !important;
   }
+  */
 }
 
 
