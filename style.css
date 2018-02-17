@@ -207,6 +207,12 @@ body#top #wrap_all .columns_style {
 @media only screen and (-ms-high-contrast: active) and (max-width: 767px), only screen and (-ms-high-contrast: none) and (max-width: 767px) {
   body#top #wrap_all .columns_style .av-flex-placeholder {
     height: 20px; } }
+  @supports (-ms-ime-align: auto) {
+    body#top #wrap_all .columns_style .av-flex-placeholder {
+      width: 20px; }
+    @media only screen and (max-width: 767px) {
+      body#top #wrap_all .columns_style .av-flex-placeholder {
+        height: 20px; } } }
   @media screen and (min-width: 2048px) {
     body#top #wrap_all .columns_style .flex_column_table {
       height: 500px; }
@@ -268,6 +274,27 @@ body#top #wrap_all .header_background {
   @media only screen and (max-width: 767px) {
     body#top #wrap_all .header_background .container {
       width: 100%; } }
+
+body#top #wrap_all .about {
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-top: 100px; }
+  body#top #wrap_all .about .av-special-heading {
+    margin-top: 20px; }
+
+body#top #wrap_all .about_2 {
+  padding: 1% 12% 3%; }
+  body#top #wrap_all .about_2 .avia-image-container {
+    display: inline; }
+  body#top #wrap_all .about_2 .avia_image {
+    width: 450px; }
+  body#top #wrap_all .about_2 .flex_column {
+    padding-right: 15px; }
+
+body#top #wrap_all .about_3 {
+  padding-left: 12%;
+  padding-right: 12%;
+  padding-bottom: 15%; }
 
 /* ============================================
 Base Styles Below

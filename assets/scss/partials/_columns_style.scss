@@ -102,6 +102,19 @@ body#top #wrap_all .columns_style{
     }
   }//IE
 
+  //Microsoft Edge
+  @supports (-ms-ime-align:auto) {
+    .av-flex-placeholder {
+      width: 20px;
+      // height: 5%;
+    }
+    @media only screen and (max-width: 767px) {
+      .av-flex-placeholder {
+        height: 20px;
+      }
+    }
+  }//ME
+
  //larges screens
   @media screen and (min-width: 2048px) {
     .flex_column_table{
