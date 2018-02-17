@@ -86,7 +86,8 @@ body#top #header_main {
     body#top #header_main {
       width: inherit;
       background-color: rgba(0, 0, 0, 0.4);
-      position: absolute; } }
+      position: absolute;
+      height: 100px; } }
 
 body#top #header_main_alternate {
   background-color: rgba(0, 0, 0, 0.6); }
@@ -254,11 +255,19 @@ body#top #wrap_all .built_to_last_desc {
   max-width: 60%;
   margin-left: 20%; }
 
-body #wrap_all .header_background > .container {
-  padding-top: 0 !important; }
-
-body #wrap_all .header_background .flex_column {
-  height: 90px; }
+body#top #wrap_all .header_background {
+  height: 100px; }
+  body#top #wrap_all .header_background > .container {
+    padding: 0;
+    max-width: none; }
+  body#top #wrap_all .header_background .template-page {
+    padding: 0; }
+  body#top #wrap_all .header_background .flex_column {
+    height: 100px;
+    background-size: cover; }
+  @media only screen and (max-width: 767px) {
+    body#top #wrap_all .header_background .container {
+      width: 100%; } }
 
 /* ============================================
 Base Styles Below
